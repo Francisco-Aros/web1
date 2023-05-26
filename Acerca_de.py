@@ -118,7 +118,7 @@ def main():
     st.markdown(
             """
             <div class="footer">
-                <p>Página web diseñada y desarrollada por Francisco Javier Aros Muñoz.</p>
+                <p>Web diseñada y desarrollada por Francisco Javier Aros Muñoz</p>
                 <a href="mailto:franciscoarosmunoz@gmail.com">franciscoarosmunoz@gmail.com</a>
             </div>
             """,
