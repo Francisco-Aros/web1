@@ -196,7 +196,7 @@ def descargar_excel():
 # crea un botón de descarga personalizado que llama a la función de descarga
 boton_descarga = st.download_button(
     label='Descargar de datos.',
-    data=descargar_excel (),
+    data=descargar_excel,
     file_name='cuello_negro.xlsx'
 )
 
