@@ -191,7 +191,7 @@ def descargar_excel():
     output.close()
     with open('cuello_negro.xlsx', 'rb') as f:
         archivo_excel = f.read()
-    return 'cuello_negro.xlsx' #archivo_excel
+    return archivo_excel #archivo_excel
 
 # crea un botón de descarga personalizado que llama a la función de descarga
 boton_descarga = st.download_button(
