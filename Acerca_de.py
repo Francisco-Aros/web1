@@ -21,16 +21,23 @@ st.sidebar.write("")
 st.sidebar.write("")
 st.sidebar.write("")
 
-# Crea dos columnas en el sidebar
-col1, col2 = st.sidebar.columns([1,7])
+def main():
+    # Crea una sola columna en dispositivos móviles y dos columnas en escritorio
+    col1, col2 = st.columns([1, 2])
 
-# Agrega contenido a la primera columna
-col1.image("gmail.png", width=25)
-col1.image("linkedin.png", width=25)
+    # Crea dos columnas en el sidebar
+    #col1, col2 = st.sidebar.columns([1,7])
 
-# Agrega contenido a la segunda columna
-col2.write("[Contacto](mailto:franciscoarosmunoz@gmail.com)")
-col2.write("[Sígueme](https://www.linkedin.com/in/francisco-aros-muñoz/)")
+    # Agrega contenido a la primera columna
+    col1.image("gmail.png", width=25)
+    col1.image("linkedin.png", width=25)
+
+    # Agrega contenido a la segunda columna
+    col2.write("[Contacto](mailto:franciscoarosmunoz@gmail.com)")
+    col2.write("[Sígueme](https://www.linkedin.com/in/francisco-aros-muñoz/)")
+
+if __name__ == '__main__':
+    main()
 
 
 
