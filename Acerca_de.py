@@ -22,7 +22,7 @@ st.sidebar.write("")
 st.sidebar.write("")
 
 # Crea dos columnas en el sidebar
-col1, col2, col3 = st.sidebar.columns([1,7,3])
+col1, col2, col3 = st.sidebar.columns([1,3,7])
 
 # Agrega contenido a la primera columna
 col1.image("gmail.png", width=25)
