@@ -32,8 +32,7 @@ col1.image("linkedin.png", width=25)
 col2.write("[Contacto](mailto:franciscoarosmunoz@gmail.com)")
 col2.write("[Sígueme](https://www.linkedin.com/in/francisco-aros-muñoz/)")
 
-col3.write("")
-col3.write("")
+
 
 
 css = '''
