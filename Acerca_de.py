@@ -23,7 +23,7 @@ st.sidebar.write("")
 
 def main():
     # Crea una sola columna en dispositivos móviles y dos columnas en escritorio
-    col1, col2 = st.beta_columns([1, 7])
+    col1, col2 = st.sidebar.beta_columns([2])
 
     # Crea dos columnas en el sidebar
     #col1, col2 = st.sidebar.columns([1,7])
