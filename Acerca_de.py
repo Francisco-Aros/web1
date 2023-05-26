@@ -71,6 +71,7 @@ with col_descr:
     st.write("Colaborador en Instituto Nacional de Estadísticas en la Región de Los Ríos en dos oportunidades, la primera como enumerador para el proyecto de actualización cartográfica de CASEN en el año 2022 y la segunda como encargado de grupo para el proyecto de Actualización Pre Censal año 2023.")
     st.write("También durante el año 2022 me desempeñé como Geógrafo en la Asociación de Municipalidades Paisajes de Conservación para la Biodiversidad de la Región de Los Ríos.")
     st.write("Finalmente, he desempeñado labores realizando pequeñas colaboraciones en proyectos que requerían de un geógrafo con el fin de plasmar información geoespacial en un tipo de archivo en específico, en una cartografía o base de datos solicitado.")
+    st.write("Como geógrafo he podido interactuar, trabajar y aplicar mis conocimientos con diversos sistemas de información geográfica (SIG), desde lo más básico para una visualización como lo es Google Earth,  hasta trabajar con QGis y ArcGis en sus diferentes versiones, actualizando constantemente y cada vez que es posible cada una de ellas. A su vez, he colaborado en diversas instancias de participación ciudadana en las regiones de La Araucanía, de Los Ríos y también en la Región Metropolitana.")
 
 st.write("")
 st.write("")
