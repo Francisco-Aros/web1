@@ -189,8 +189,8 @@ def descargar_excel():
     output = pd.ExcelWriter('cuello_negro.xlsx')
     geo_puntos_visual.to_excel(output)
     output.close()
-    #with open('cuello_negro.xlsx', 'rb') as f:
-        #archivo_excel = f.read()
+    with open('cuello_negro.xlsx', 'rb') as f:
+        archivo_excel = f.read()
     return 'cuello_negro.xlsx' #archivo_excel
 
 # crea un botón de descarga personalizado que llama a la función de descarga
