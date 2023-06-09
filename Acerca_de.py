@@ -2,19 +2,21 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-def main():
-    #Configuración inicial de la página
-    st.set_page_config(
-        page_title="Mi Aplicación Personalizada",
-        page_icon=":thumbs_up:",
-        layout="wide"
-    )
+# URL de tu aplicación
+app_url = "https://franciscoaros.streamlit.app/"
 
-    # Tu código de la aplicación aquí
-    st.write("¡Bienvenido a mi aplicación personalizada!")
+# Texto personalizado que deseas mostrar en lugar del enlace
+link_text = "Haz clic aquí para acceder a la aplicación"
+# Mostrar el texto como un enlace
+st.markdown(f"[{link_text}]({app_url})")
 
-if __name__ == '__main__':
-    main()
+   #Configuración inicial de la página
+st.set_page_config(
+    page_title="Mi Aplicación Personalizada",
+    page_icon=":thumbs_up:",
+    layout="wide"
+)
+
 
 
 st.sidebar.write("")
