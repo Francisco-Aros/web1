@@ -3,13 +3,18 @@ import streamlit.components.v1 as components
 
 
 
-
+def main():
    #Configuración inicial de la página
-st.set_page_config(
-    page_title="Mi Aplicación Personalizada",
-    page_icon=":globe_with_meridians:",
-    layout="wide"
-)
+    st.set_page_config(
+        page_title="Mi Aplicación Personalizada",
+        page_icon=":globe_with_meridians:",
+        layout="wide"
+    )
+    # Agregar imagen personalizada
+    st.image("DSC_8357(1).jpg", caption="Mi imagen personalizada")
+
+if __name__ == '__main__':
+    main()
 
 
 
