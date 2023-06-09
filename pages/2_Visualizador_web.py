@@ -4,8 +4,9 @@ from streamlit_folium import folium_static
 import streamlit as st
 
 st.set_page_config(
-    page_icon=":thumbs_up:",
-    layout="wide",
+    page_title="Visualizador",
+    page_icon=":globe_with_meridians:",
+    layout="wide"
 )
 
 st.sidebar.write("")

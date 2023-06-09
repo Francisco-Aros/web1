@@ -4,8 +4,9 @@ import pandas as pd
 import numpy as np
 
 st.set_page_config(
-    page_icon=":thumbs_up:",
-    layout="wide",
+    page_title="Cuello Negro",
+    page_icon=":globe_with_meridians:",
+    layout="wide"
 )
 
 st.sidebar.write("")
