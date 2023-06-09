@@ -2,11 +2,13 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-#Configuración inicial de la página
-st.set_page_config(
-    page_icon=":thumbs_up:",
-    layout="wide"
-)
+def main():
+    #Configuración inicial de la página
+    st.set_page_config(
+        page_title="Mi Aplicación Personalizada",
+        page_icon=":thumbs_up:",
+        layout="wide"
+    )
 
 
 st.sidebar.write("")
