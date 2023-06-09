@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
    #Configuración inicial de la página
 st.set_page_config(
     page_title="Mi Aplicación Personalizada",
-    page_icon=":thumbs_up:",
+    page_icon=":round_pushpin:",
     layout="wide"
 )
 
