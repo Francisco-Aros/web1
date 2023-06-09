@@ -10,6 +10,12 @@ def main():
         layout="wide"
     )
 
+    # Tu código de la aplicación aquí
+    st.write("¡Bienvenido a mi aplicación personalizada!")
+
+if __name__ == '__main__':
+    main()
+
 
 st.sidebar.write("")
 st.sidebar.write("")
