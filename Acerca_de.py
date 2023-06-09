@@ -2,13 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-# URL de tu aplicación
-app_url = "https://franciscoaros.streamlit.app/"
 
-# Texto personalizado que deseas mostrar en lugar del enlace
-link_text = "Haz clic aquí para acceder a la aplicación"
-# Mostrar el texto como un enlace
-st.markdown(f"[{link_text}]({app_url})")
 
    #Configuración inicial de la página
 st.set_page_config(
