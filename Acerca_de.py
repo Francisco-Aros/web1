@@ -6,6 +6,7 @@ import streamlit.components.v1 as components
 
    #Configuración inicial de la página
 st.set_page_config(
+    page_title="Acerca de",
     page_icon=":globe_with_meridians:",
     layout="wide"
 )
